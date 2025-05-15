@@ -1,0 +1,45 @@
+/*	index.css	*/
+body {
+	background-color: black;
+	color: #CCCCCC;
+	font-family: "Fira Code", monospace;
+	padding: 3%;
+	font-size: 1.5em;
+}
+
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+nav a {
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+	border-bottom: medium solid #CCCCCC;
+	font-size: 20;
+}
+
+h2 {
+	border-bottom: thin solid #999999;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	margin: 5px 0;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+}
