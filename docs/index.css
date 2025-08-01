@@ -1,8 +1,12 @@
 /* index.css */
 body {
+	font-family: "Fira Code", monospace;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 	background-color: #000000;
 	color: #FFFFFF;
 }
@@ -136,4 +140,8 @@ header {
 	flex-wrap: wrap;
 	align-items: center;
 	width: 100%;
+}
+
+.indent {
+  padding-left: 1.5em;
 }
