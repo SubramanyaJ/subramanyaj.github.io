@@ -1,25 +1,30 @@
-<!-- index.html -->
+<!-- I have made minimal comments to reduce load time 
+     This site DOES NOT use Javascript. See https://disable-javascript.org/ 
+     Shoutout to マリウス for the theme inspiration, 
+     check out https://マリウス.com                                      -->
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+	<title> Subramanya J </title>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="index.css">
-	<title>Subramanya J</title>
+	<link rel="stylesheet" href="styles.css">
+
 </head>
 
-<body class="dark-mode">
+<body>
 	<div class="container">
 		<header>
-			<div class="name">Subramanya J</div>
+			<div class="name">
+                Subramanya J
+            </div>
+
 			<div class="header-right">
 				<div class="contacts">
+
 					<a href="mailto:subramanyajaradhya@gmail.com" target="_blank"
 						rel="noopener noreferrer">
 						<img src="assets/email.svg" alt="Mail" height="32" width="32">
@@ -30,11 +35,14 @@
 					<a href="https://github.com/SubramanyaJ">
 						<img src="assets/github.svg" alt="GitHub" height="32" width="32">
 					</a>
+
 				</div>
-				<button id="darkModeToggle">☀️</button>
 			</div>
 		</header>
-		<h2>Education</h2>
+
+		<h2>
+            Education
+        </h2>
 
 		<p>
 			<strong><u>Bachelor of Engineering in Computer Science and Engineering</u></strong><br>
@@ -52,11 +60,25 @@
 			V. V. S. BM Sri Educational Institutions<br>
 			Mysore, Karnataka<br>
 			2021 - 2023<br>
-			<em>Subjects: Physics, Chemistry, Mathematics, Biology</em>
+			<em>Score: 96% (PCMB) </em>
 			</div>
 		</p>
 
-		<h2>Contributions</h2>
+
+		<h2>
+            Projects
+        </h2>
+		<p><strong><u><a href="https://github.com/SubramanyaJ/feed">feed</a></u></strong><br>
+            An RSS feed aggregator.</p>
+        <li> Created a basic real-time Really Simple Syndication (RSS) feed aggregator that collects feeds from sites specified in a JSON file using a Vercel backend running Node.js.
+        </li>
+
+        <li> Available at <a href="https://subramanyaj.github.io/feed"> subramanyaj/feed </a> via Github Pages.
+        <li>
+
+		<h2>
+            Contributions
+        </h2>
 		<p><strong><u><a href="https://github.com/pwmt/zathura">pwmt/zathura</a></u></strong><br>
 			A document viewer.</p>
 		<ul>
@@ -66,40 +88,13 @@
 		</ul>
 
 
-		<!--
-		<h2>Experience</h2>
-		<p><strong>Title Held</strong><br>
-			Institute<br>
-			Timeline</p>
-		<ul>
-			<li>Add what I did here</li>
-		</ul>
-
--->
-
-		<!--
-
-		<h2>Projects</h2>
-		<p><strong>ChaCha20</strong> | C, OpenSSL, gcc, gdb, Valgrind<br>
-			April 2025 – May 2025</p>
-		<ul>
-			<li>Implemented the ChaCha20 algorithm.</li>
-		</ul>
-
--->
-
 		<h2>Technical Skills</h2>
 		<p>	<strong>Languages:</strong> C<br>
 
-		<!--	<strong>Frameworks:</strong> Linux, runit, systemd<br> -->
+			<strong>Developer Tools:</strong> Git, gdb<br>
 
-			<strong>Developer Tools:</strong> Git, Docker, SSH, Vim, GitHub, clang, gcc, gdb, Make,
-			CMake, Meson, Ninja<br>
-
-			<strong>Libraries:</strong> Pthreads
 		</p>
 	</div>
-	<script src="index.js"></script>
 </body>
 
 </html>

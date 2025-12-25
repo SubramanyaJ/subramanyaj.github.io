@@ -1,0 +1,94 @@
+:root {
+    --bg : #0f1214;
+    --fg : #e6e2d6;
+    --bottom-border : #333;
+    --black : #000000;
+    --hover : #ff6700;
+    --links: #90caf9;
+}
+
+@font-face {
+  font-family: 'TX-02-Regular';
+  src: url('./assets/TX-02-Regular.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+	font-family: "TX-02-Regular", monospace;
+  	font-optical-sizing: auto;
+
+	background-color: var(--bg);
+	color: var(--fg);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-bottom: 2px solid var(--bottom-border);
+    background-color : var(--bg);
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+}
+
+.name {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.contacts a {
+	margin-left: 15px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+	padding: 40px 20px;
+}
+
+a {
+	color: var(--links);
+	text-decoration: none;
+}
+
+a:hover {
+    background-color : var(--black);
+    color : var(--hover);
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+h2 {
+	border-bottom: 1px solid var(--bottom-border);
+	padding-bottom: 5px;
+	margin-top: 30px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.indent {
+  padding-left: 1.5em;
+}
