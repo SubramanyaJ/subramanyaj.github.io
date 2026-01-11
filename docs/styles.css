@@ -1,23 +1,23 @@
 :root {
-    --bg : #0f1214;
-    --fg : #e6e2d6;
-    --bottom-border : #333;
-    --black : #000000;
-    --hover : #ff6700;
-    --links: #90caf9;
+	--bg: #0f1214;
+	--fg: #e6e2d6;
+	--bottom-border: #333;
+	--black: #000000;
+	--hover: #ff6700;
+	--links: #90caf9;
 }
 
 @font-face {
-  font-family: 'TX-02-Regular';
-  src: url('./assets/TX-02-Regular.woff2') format('woff2');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'TX-02-Regular';
+	src: url('./assets/TX-02-Regular.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
 }
 
 body {
 	font-family: "TX-02-Regular", monospace;
-  	font-optical-sizing: auto;
+	font-optical-sizing: auto;
 
 	background-color: var(--bg);
 	color: var(--fg);
@@ -34,7 +34,7 @@ header {
 	flex-direction: row;
 	padding: 1% 2%;
 	border-bottom: 2px solid var(--bottom-border);
-    background-color : var(--bg);
+	background-color: var(--bg);
 	flex-wrap: wrap;
 	align-items: center;
 	width: 100%;
@@ -46,33 +46,36 @@ header {
 	font-weight: bold;
 }
 
-.name, .header-right {
-    flex-grow: 1;
-    text-align: center;
+.name,
+.header-right {
+	flex-grow: 1;
+	text-align: center;
 	align-items: center;
 }
 
 .name {
-    text-align: center;
-    min-width: max-content;
+	text-align: center;
+	min-width: max-content;
 }
 
 .header-right {
-    text-align: center;
-    justify-content: center;
-    min-width: max-content;
+	text-align: center;
+	justify-content: center;
+	min-width: max-content;
 }
 
 .contacts {
-    text-align: center;
-    justify-content: flex-end;
-    min-width: max-content;
+	text-align: center;
+	justify-content: flex-end;
+	min-width: max-content;
 }
 
 @media (min-width: 800px) {
-    .name, .header-right {
-        flex-grow: 0;
-    }
+
+	.name,
+	.header-right {
+		flex-grow: 0;
+	}
 }
 
 .header-right {
@@ -101,8 +104,8 @@ a {
 }
 
 a:hover {
-    background-color : var(--black);
-    color : var(--hover);
+	background-color: var(--black);
+	color: var(--hover);
 }
 
 h1 {
@@ -125,5 +128,9 @@ ul {
 }
 
 .indent {
-  padding-left: 1.5em;
+	padding-left: 1.5em;
+}
+
+li {
+	margin-bottom: 0.5rem;
 }

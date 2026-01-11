@@ -19,8 +19,8 @@
 	<div class="container">
 		<header>
 			<div class="name">
-                Subramanya J
-            </div>
+				Subramanya J
+			</div>
 
 			<div class="header-right">
 				<div class="contacts">
@@ -41,59 +41,111 @@
 		</header>
 
 		<h2>
-            Education
-        </h2>
+			Education
+		</h2>
 
 		<p>
 			<strong><u>Bachelor of Engineering in Computer Science and Engineering</u></strong><br>
-			<div class="indent">
+		<div class="indent">
 			B. M. S. College Of Engineering<br>
 			Bangalore, Karnataka<br>
 			Sept. 2023 - Sept. 2027<br>
 			<em>GPA : 9.72/10</em>
-			</div>
+		</div>
 		</p>
 
 		<p>
 			<strong><u>Pre-University</u></strong><br>
-			<div class="indent">
+		<div class="indent">
 			V. V. S. BM Sri Educational Institutions<br>
 			Mysore, Karnataka<br>
 			2021 - 2023<br>
 			<em>Score: 96% (PCMB) </em>
-			</div>
+		</div>
 		</p>
 
 
 		<h2>
-            Projects
-        </h2>
-		<p><strong><u><a href="https://github.com/SubramanyaJ/feed">feed</a></u></strong><br>
-            An RSS feed aggregator.</p>
-        <ul class="indent">
-        <li> Created a basic real-time Really Simple Syndication (RSS) feed aggregator that collects feeds from sites specified in a JSON file using a Vercel backend running Node.js.
-        </li>
+			Projects
+		</h2>
+		<p>
+			<strong><u><a href="https://github.com/SubramanyaJ/scep">scep</a></u></strong><br>
+			A recursive scanner for hex color literals.
+		</p>
+		<ul class="indent">
+			<li>
+				Implemented a zero dependency C program that scans directory trees for #RGB,
+				#RRGGBB, and #RRGGBBAA color codes using memory-mapped files.
+			</li>
+			<li>
+				Wrote a custom directory walker that uses depth first search and respects simple
+				gitignore rules for minimal memory usage to keep file system overhead low.
+			</li>
+			<li>
+				Improved execution time by manually buffering the output, effectively amortizing calls
+				to write().
+			</li>
+		</ul>
 
-        <li> Available at <a href="https://subramanyaj.github.io/feed"> subramanyaj/feed </a> via Github Pages.
-        </li>
-        </ul>
+		<p><strong><u><a href="https://github.com/SubramanyaJ/feed">feed</a></u></strong><br>
+			An RSS feed aggregator.</p>
+		<ul class="indent">
+			<li> Created a basic real-time Really Simple Syndication (RSS) feed aggregator that collects
+				feeds from sites specified in a JSON file.
+			</li>
+
+			<li>
+				Uses a dedicated Vercel-hosted backend running Node.js to fetch and normalize feeds.
+			</li>
+
+			<li> Frontend deployed via GitHub Pages at <a
+					href="https://subramanyaj.github.io/feed">subramanyaj/feed</a>.
+			</li>
+		</ul>
+
+		<p><strong><u><a href="https://github.com/SubramanyaJ/errcheck.h">errchech.h</a></u></strong><br>
+			A library for error handling in C.</p>
+		<ul class="indent">
+			<li> Provides macros to capture syscall return values and compare them against explicit expected
+				conditions.
+			</li>
+
+			<li> Centralizes errno preparation, evaluation, optional reset, and perror() invocation in
+				one place.
+			</li>
+
+			<li> Enables uniform, inline error checking around syscalls without duplicating comparison
+				and errno handling logic.
+			</li>
+		</ul>
 
 		<h2>
-            Contributions
-        </h2>
+			Contributions
+		</h2>
 		<p><strong><u><a href="https://github.com/pwmt/zathura">pwmt/zathura</a></u></strong><br>
 			A document viewer.</p>
 		<ul class="indent">
-			<li>Identified a rendering bug caused by improper quickmark evaluation, where a file's zoom value was restored without considering the current adjust mode (best-fit, width). This caused truncated rendering of files and application crashes. <a href="https://github.com/pwmt/zathura/issues/761" target="_blank">Issue #761</a></li>
+			<li>Identified a rendering bug caused by improper quickmark evaluation, where a file's zoom
+				value was restored without considering the current adjust mode (best-fit, width). This
+				caused truncated rendering of files and application crashes. <a
+					href="https://github.com/pwmt/zathura/issues/761" target="_blank">Issue #761</a>
+			</li>
 
-			<li>Authored and submitted a pull request to fix the issue by correctly applying the adjust mode and ensuring proper rendering of pages during quickmark evaluation, improving stability during navigation. <a href="https://github.com/pwmt/zathura/pull/762" target="_blank">PR #762</a></li>
+			<li>Authored and submitted a pull request to fix the issue by correctly applying the adjust mode
+				and ensuring proper rendering of pages during quickmark evaluation, improving stability
+				during navigation. <a href="https://github.com/pwmt/zathura/pull/762" target="_blank">PR
+					#762</a></li>
 		</ul>
 
 
 		<h2>Technical Skills</h2>
-		<p>	<strong>Languages:</strong> C<br>
+		<p>
 
-			<strong>Developer Tools:</strong> Git, gdb<br>
+			<strong>Languages:</strong> C, x86 Assembly, Javascript <br>
+
+			<strong>Developer Tools:</strong> Git, gdb, Docker<br>
+
+			<strong>Build Systems:</strong> Meson with Ninja, CMake with Make<br>
 
 		</p>
 	</div>
