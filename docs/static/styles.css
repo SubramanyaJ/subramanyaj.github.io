@@ -1,0 +1,73 @@
+:root {
+	--bg: #141312;
+	--fg: #e6e4e2;
+
+	--bottom-border: #456;
+	--black: #000000;
+	--hover: #ff6700;
+	/* --links: #90caf9; */
+	--links: #00E0E0;
+}
+
+@font-face {
+	font-family: 'TX-02-Regular';
+	src: url('./TX-02-Regular.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "TX-02-Regular", monospace;
+	font-optical-sizing: auto;
+	font-size: 1.2rem;
+
+	background-color: var(--bg);
+	color: var(--fg);
+	margin: 0px;
+	padding: 0 10%;
+	overflow-x: hidden;
+}
+
+a {
+	color: var(--links);
+	text-decoration: none;
+}
+
+li {
+  margin-bottom: 0.8rem;
+}
+
+.title {
+	text-align: center;
+	font-size: clamp(28px, 6vw, 32px);
+	overflow-wrap: break-word;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+}
+
+.subtitle {
+	font-size: clamp(18px, 3vw, 18px);
+	line-height : 1.1;
+	display: inline-block;
+}
+
+a:hover {
+	background-color: var(--black);
+	color: var(--hover);
+}
+
+p {
+	line-height : 1.7;
+	margin-bottom: 0.9rem;
+}
+
+.status {
+	color: #909090;
+	font-size: 12px;
+}
+
+.status p {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+}

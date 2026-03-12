@@ -1,0 +1,11 @@
+#+TITLE: subramanyaj.github.io
+
+The following content can come off as either extreme or misinformed (if you are lucky, both).
+However, I can assure the reader that they surely are my authentic thoughts based on personal experience.
+As a great man once said, *I hope this blog serves my purpose*.
+
+None of the writing on this website has been inspired, generated, or reviewed by LLMs.
+These tools have been rotting my brain for a while, and now I would rather make grammatical mistakes myself and get them corrected by readers rather than use any of those godforsaken autocorrect programs.
+
+* Posts
++ [12-03-2026 Tue] [[./12-03-2026/internet.html][Musings on the Internet]]
